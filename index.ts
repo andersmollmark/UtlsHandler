@@ -2,7 +2,7 @@ var electron = require('electron');
 var app = electron.app;
 var BrowserWindow = electron.BrowserWindow;
 var ipc = electron.ipcMain;
-var fileSystem = require('fs');
+var fs = require('fs');
 
 
 app.on('ready', () => {
